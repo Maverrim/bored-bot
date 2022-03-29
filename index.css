@@ -1,0 +1,58 @@
+.random-activity-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0 20px 15px 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0.85)
+}
+
+.random-activity__btn, 
+h2 {
+    font-family: inherit;
+}
+
+h1 {
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.random-activity__btn, .random-activity__clear-btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+
+.random-activity__clear-btn {
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.random-activity__btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.previous-activity {
+    padding: 2px;
+    text-align: left;
+}
+
